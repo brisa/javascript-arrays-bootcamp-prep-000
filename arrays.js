@@ -29,7 +29,7 @@ function removeElementFromBeginningOfArray(arr){
 }
 function removeElementFromEndOfArray(arr){
   var newArr = arr.pop()
-  return newArr
+  return arr
 }
 function destructivelyRemoveElementFromBeginningOfArray(arr){
   arr.shift()
