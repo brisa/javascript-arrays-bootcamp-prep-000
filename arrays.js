@@ -25,7 +25,7 @@ function accessElementInArray(arr, index){
 }
 function removeElementFromBeginningOfArray(arr){
   var removedArr =  arr.shift()
-  return removedArr
+  return arr
 }
 function removeElementFromEndOfArray(arr){
   arr.pop()
