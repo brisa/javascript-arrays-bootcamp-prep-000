@@ -36,8 +36,3 @@ function destructivelyRemoveElementFromBeginningOfArray(arr){
   return arr
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(arr){
-  arr.pop()
-  return arr
-
-}
